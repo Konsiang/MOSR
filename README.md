@@ -15,3 +15,6 @@ python model_new.py --md 10 -v 0 -lr 0.99
 
 ## OWA_2
 python model_new2.py --md 10 -v 0 -lr 0.99
+
+## Evaluate Result
+python evaluate_results.py 
