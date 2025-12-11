@@ -1,7 +1,7 @@
 # MOSR: Stationary Algorithmic Balancing For Dynamic Email Re-Ranking Problem
 
+Dataset come from kaggle at https://www.kaggle.com/datasets/acsariyildiz/the-enron-email-dataset-parsed
 The dataset(sorted_emails1.csv) could be download at https://drive.google.com/drive/folders/19FjAjzdQMP6DZUo036DxKUG-KxXR5n5d?usp=sharing Please put it in data/
-
 data/organization2.csv is crawled by us. And it is already in data/ folder.
 
 ## To run our code:
