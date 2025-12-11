@@ -10,5 +10,8 @@ cd code
 python check_data_distance_2.py  
 
 Or you can download .json file directly at https://drive.google.com/drive/folders/19FjAjzdQMP6DZUo036DxKUG-KxXR5n5d?usp=sharing, then
-## EnronA 
+## OWA_1 
 python model_new.py --md 10 -v 0 -lr 0.99
+
+## OWA_2
+python model_new2.py --md 10 -v 0 -lr 0.99
