@@ -1,10 +1,6 @@
 # MOSR: Stationary Algorithmic Balancing For Dynamic Email Re-Ranking Problem
 
-Accepted by KDD ’23.
-
-Our paper could be viewd at (https://dl.acm.org/doi/pdf/10.1145/3580305.3599909)
-
-The dataset could be download in https://www.cs.cmu.edu/~enron/. Please put it in data/
+The dataset(sorted_emails1.csv) could be download at https://drive.google.com/drive/folders/19FjAjzdQMP6DZUo036DxKUG-KxXR5n5d?usp=sharing Please put it in data/
 
 data/organization2.csv is crawled by us. And it is already in data/ folder.
 
@@ -12,7 +8,7 @@ data/organization2.csv is crawled by us. And it is already in data/ folder.
 cd code
 ## generate the .json file we need
 python check_data_distance_2.py  
+
+Or you can download .json file directly at https://drive.google.com/drive/folders/19FjAjzdQMP6DZUo036DxKUG-KxXR5n5d?usp=sharing, then
 ## EnronA 
 python model_new.py --md 10 -v 0 -lr 0.99
-## EnronB
-python model_new.py --md 10 -v 1 -lr 0.99
